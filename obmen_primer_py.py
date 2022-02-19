@@ -8,7 +8,7 @@ ser.reset_input_buffer()
 Time = 1000
 while True:
     try:
-        ser_bytes = ser.readline()  # Uncomment this three lines if you want to read info from photoresistor
+        ser_bytes = ser.readline()  
         decoded_bytes = float(ser_bytes[0:len(ser_bytes) - 2].decode("utf-8"))
         R, G, B = 0, 0 ,0
         print(decoded_bytes)
