@@ -4,7 +4,7 @@ import numpy as np
 ing_size = [900, 400]
 
 cap = cv2.VideoCapture(r"c:/Python/python by/GAZ.py/svet_e.mp4")
-#cap = cv2.VideoCapture(r"c:/Python/python by/GAZ.py/bin_test.mp4")
+# cap = cv2.VideoCapture(r"c:/Python/python by/GAZ.py/bin_test.mp4")
 
 while (cv2.waitKey(1) != 27):
     ret, img = cap.read()
